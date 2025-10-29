@@ -1,6 +1,6 @@
 variable "location" { default = "centralindia" }
 variable "resource_group" { default = "flask-aks-rg" }
-variable "acr_name" { default = "ashwinacr123" } # change to unique name
+variable "acr_name" { default = "abhinavracr123" } # change to unique name
 
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group

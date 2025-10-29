@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: ashwinacr123
+  AZURE_CONTAINER_REGISTRY: abhinavracr123
   IMAGE_NAME: flaskapp
   RESOURCE_GROUP: flask-aks-rg
   AKS_CLUSTER_NAME: flask-aks-cluster
